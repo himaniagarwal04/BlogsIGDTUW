@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Equinox";
+  src: url(/Users/himaniagarwal/Desktop/Work/vsc/BlogsIGDTUW-2/user/src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
+  font-weight: bold;
+}
+
 html{
   background-image: url(https://www.viasat.com/content/dam/us-site/government/images/1245270_Space_Domain_Hero_003.jpg) ;
   background-repeat: no-repeat; 
@@ -9,59 +15,61 @@ html{
 
 .register {
   height: calc(100vh - 50px);
-  box-sizing: border-box;
-  padding-left: 43%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  /*z-index: 3;*/
-  background-size: cover;
-  
+  color:white;
+  font-family: "Equinox";
 }
 
 .registerTitle {
   font-size: 50px;
-  color:rgb(255, 255, 255)
+  font-family: "Equinox";
+  border-radius: 10px;
 }
 
 .registerForm {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  color:rgb(255, 255, 255);
-  width: 140%;
+  font-family: "Equinox";
+  border-radius: 10px;
 }
 
 .registerForm > label {
   margin: 10px 0;
+  font-family: "Equinox";
+  border-radius: 10px;
 }
 
 .registerInput {
   padding: 10px;
   background-color: white;
-  border-radius: 10px;
   border: none;
+  border-radius: 10px;
+  
 }
 
 .registerButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: rgb(130, 203, 237);
-  border: 1px solid white;
+  background-color: rgb(69, 180, 207);
+  border : 1px solid white;
+
   color: white;
   border-radius: 10px;
   padding: 10px;
+  font-family: "Equinox";
 }
 
 .registerLoginButton {
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: rgb(130, 203, 237);
-  border: 1px solid white;
+  background-color: rgb(69, 180, 207);
   cursor: pointer;
+  border: none;
   padding: 10px;
   color: white;
   border-radius: 10px;
