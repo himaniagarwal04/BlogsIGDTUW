@@ -1,14 +1,29 @@
+html{
+  background-image: url(https://www.viasat.com/content/dam/us-site/government/images/1245270_Space_Domain_Hero_003.jpg) ;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100hv;
+  wight:100vw;
+}
+
+body{
+  color: white;
+}
+
+
 .register {
   height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
+  
+  
+  /*linear-gradient(
       rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      rgba(255, 255, 255, 0.5)*/
+    
+    /*url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
   background-size: cover;
 }
 
@@ -29,14 +44,19 @@
 .registerInput {
   padding: 10px;
   background-color: white;
+  border-radius: 10px;
   border: none;
 }
 
 .registerButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: teal;
-  border: none;
+  background-color: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(196, 32, 32, 0.5)
+  ),
+  ;
+  border: 1px solid white;
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -46,7 +66,8 @@
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: lightcoral;
+  background-color: rgb(130, 203, 237);
+  border: 1px solid white;
   cursor: pointer;
   border: none;
   padding: 10px;
