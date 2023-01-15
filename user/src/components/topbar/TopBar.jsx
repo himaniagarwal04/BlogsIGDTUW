@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./topbar.css";
-
+// // PF+user.profilePic
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
   const PF = "http://localhost:5000/images/"
@@ -48,7 +48,8 @@ export default function TopBar() {
       <div className="topRight">
         {user ? (
           <Link to="/settings">
-            <img className="topImg" src={PF+user.profilePic} alt="" />
+
+            <img className="topImg" src={"https://www.pngarts.com/files/4/Astronaut-PNG-Photo.png"} alt="" />
           </Link>
         ) : (
           <ul className="topList">

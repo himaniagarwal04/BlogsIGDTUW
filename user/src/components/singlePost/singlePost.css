@@ -21,6 +21,7 @@
   margin: 10px;
   font-family: "Lora", serif;
   font-size: 28px;
+  color: rgb(238, 168, 255);
 }
 
 .singlePostTitleInput {
@@ -29,7 +30,7 @@
   font-size: 28px;
   text-align: center;
   border: none;
-  color: gray;
+  color: rgb(255, 255, 255);
   border-bottom: 1px solid lightgray;
 }
 
@@ -61,11 +62,11 @@
   justify-content: space-between;
   font-size: 16px;
   font-family: "Varela Round", sans-serif;
-  color: #b39656;
+  color: rgb(243, 251, 192);
 }
 
 .singlePostDesc {
-  color: #666;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   line-height: 25px;
 }

@@ -16,7 +16,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
+        <span className="sidebarTitle">ABOUT   I-IGDTUW</span>
         <img
           src="https://www.pngarts.com/files/4/Astronaut-PNG-Photo.png"
           alt=""
@@ -24,12 +24,11 @@ export default function Sidebar() {
           margin = "12px"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+          I-IGDTUW is a platform for the students of IGDTUW to share their experiences and knowledge with the world.
         </p>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">CATEGORIES</span>
+        <span className="sidebarTitle">TAGS</span>
         <ul className="sidebarList">
           {cats.map((c) => (
             <Link to={`/?cat=${c.name}`} className="link">

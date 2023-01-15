@@ -1,16 +1,17 @@
 @font-face {
   font-family: "Equinox";
-  /* src: url(/Users/himaniagarwal/Desktop/Work/vsc/BlogsIGDTUW-2/user/src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
-   */
+  src: url("../../assets/fonts/FontsFree-Net-EquinoxRegular.ttf");
+   
   font-weight: bold;
 }
 
 html{
-  background-image: url(https://www.viasat.com/content/dam/us-site/government/images/1245270_Space_Domain_Hero_003.jpg) ;
+  /*background-image: url(https://www.viasat.com/content/dam/us-site/government/images/1245270_Space_Domain_Hero_003.jpg) ;*/
   background-repeat: no-repeat; 
   background-size: cover;
   height: 100hv;
   width:100vw;
+  background-color: black;
 }
 
 
@@ -22,6 +23,8 @@ html{
   justify-content: center;
   color:white;
   font-family: "Equinox";
+  background-image: url(https://www.viasat.com/content/dam/us-site/government/images/1245270_Space_Domain_Hero_003.jpg) ;
+
 }
 
 .registerTitle {
