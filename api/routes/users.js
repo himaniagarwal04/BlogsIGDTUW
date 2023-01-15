@@ -52,7 +52,7 @@ router.get("/:id", async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
     const { password, ...others } = user._doc;
-    res.status(200).json(others);
+    return res.status(200).json(others);
   } catch (err) {
     return res.status(500).json(err);
   }

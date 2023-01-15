@@ -7,9 +7,9 @@ router.post("/", async (req, res) => {
   const newPost = new Post(req.body);
   try {
     const savedPost = await newPost.save();
-    res.status(200).json(savedPost);
+    return res.status(200).json(savedPost);
   } catch (err) {
-    res.status(500).json(err);
+    return res.status(500).json(err);
   }
 });
 
@@ -26,15 +26,15 @@ router.put("/:id", async (req, res) => {
           },
           { new: true }
         );
-        res.status(200).json(updatedPost);
+        return res.status(200).json(updatedPost);
       } catch (err) {
-        res.status(500).json(err);
+        return  res.status(500).json(err);
       }
     } else {
-      res.status(401).json("You can update only your post!");
+      return  res.status(401).json("You can update only your post!");
     }
   } catch (err) {
-    res.status(500).json(err);
+    return  res.status(500).json(err);
   }
 });
 
