@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Equinox";
+  src: url(/Users/himaniagarwal/Desktop/Work/vsc/BlogsIGDTUW/user/src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
+  font-weight: bold;
+}
+
 .header {
   margin-top: 60px;
 }
@@ -6,8 +12,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Lora", serif;
-  color: #444;
+  font-family: "Equinox";
+  color: rgb(225, 11, 11);
 }
 
 .headerTitleSm {
