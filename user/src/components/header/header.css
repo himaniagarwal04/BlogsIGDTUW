@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Equinox";
-  src: url(/Users/himaniagarwal/Desktop/Work/vsc/BlogsIGDTUW-1/user/src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
+  src: url(/Users/himaniagarwal/Desktop/Work/vsc/BlogsIGDTUW-2/user/src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
   font-weight: bold;
 }
 
@@ -20,12 +20,14 @@
   position: absolute;
   top: 18%;
   font-size: 20px;
+  font-family: "Equinox";
 }
 
 .headerTitleLg {
   position: absolute;
   top: 20%;
   font-size: 100px;
+  font-family: "Equinox";
 }
 
 .headerImg{
