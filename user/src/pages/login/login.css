@@ -3,14 +3,12 @@ html{
   background-repeat: no-repeat; 
   background-size: cover;
   height: 100hv;
-  wight:100vw;
+  weight:100vw;
 }
 
 body{
   color: white;
 }
-
-
 
 .login {
   height: calc(100vh - 50px);
@@ -18,8 +16,6 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
-   
   background-size: cover;
 }
 
@@ -46,8 +42,8 @@ body{
 .loginButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: lightcoral;
-  border: none;
+  background-color: rgb(130, 203, 237);
+  border: 1px solid white;
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -55,16 +51,17 @@ body{
 
 .loginButton:disabled{
   cursor: not-allowed;
-  background-color: rgb(252, 173, 173);
+  background-color: rgb(130, 203, 237);
+  border: 1px solid white;
 }
 
 .loginRegisterButton {
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: teal;
+  background-color: rgb(130, 203, 237);
   cursor: pointer;
-  border: none;
+  border: 1px solid white;
   padding: 10px;
   color: white;
   border-radius: 10px;
