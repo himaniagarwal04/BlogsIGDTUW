@@ -74,14 +74,16 @@ router.get("/", async (req, res) => {
   try {
     let posts;
     if (username) {
-      posts = await Post.find({ username });
-    } else if (catName) {
+      posts = await Post.find({ username }); //{username: username} they are same 
+    } 
+    else if (catName) {
       posts = await Post.find({
         categories: {
           $in: [catName],
         },
       });
-    } else {
+    } 
+    else {
       posts = await Post.find();
     }
     res.status(200).json(posts);
