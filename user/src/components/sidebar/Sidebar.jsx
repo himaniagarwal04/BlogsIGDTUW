@@ -18,8 +18,10 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+          src="https://www.pngarts.com/files/4/Astronaut-PNG-Photo.png"
           alt=""
+          height="250px"
+          margin = "12px"
         />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
