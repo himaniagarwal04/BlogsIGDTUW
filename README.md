@@ -1,4 +1,5 @@
 # BlogsIGDTUW
+##Tech stack used: MERN, Replit, HTML, CSS 
 The backend is deployed on replit, the link to the repl: 
 https://replit.com/@siya-pathak/i-IGDTUW-backend
 Deployed backend link: 
